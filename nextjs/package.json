@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "@netlify/plugin-nextjs": "5",
+        "next": "15",
+        "react": "19",
+        "react-dom": "19"
+    },
+    "scripts": {
+        "build": "next build"
+    },
+    "name": "nextjs",
+    "version": "0.0.1"
+}

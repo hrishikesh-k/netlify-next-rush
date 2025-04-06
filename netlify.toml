@@ -1,0 +1,6 @@
+[build]
+  command = "npm i -g rush && rush update && rush build"
+  publish = "./nextjs/.next/"
+
+[plugins]
+  package = "@netlify/plugin-nextjs"
