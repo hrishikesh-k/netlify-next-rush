@@ -1,5 +1,5 @@
 [build]
-  command = "npm i -g rush && rush update && rush build"
+  command = "npm i -g rush && npx rush update && npx rush build"
   publish = "./nextjs/.next/"
 
 [[plugins]]
